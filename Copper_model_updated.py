@@ -4,7 +4,8 @@ import pandas as pd
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-
+import warnings
+warnings.filterwarnings('ignore')
 # Setting up the streamlit page
 st.title(":green[INDUSTRIAL COPPER MODELLING]")
 with st.sidebar:
